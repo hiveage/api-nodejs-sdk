@@ -1,0 +1,6 @@
+node_modules/
+playground/
+*.env
+src/hiveage.js
+src/__tests__/
+src/__mock__data__/
