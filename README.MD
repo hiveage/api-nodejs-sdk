@@ -16,7 +16,6 @@ Node.js client library for using Hiveage APIs. Support for authorization and aut
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Support and Migration](#support-and-migration)
 - [Built With](#built-with)
 - [License](#license)
 
@@ -27,12 +26,6 @@ Paddington requires the following to run:
 - [Node.js][node] 0.10+
 - [npm][npm] (normally comes with Node.js)
 
-## Browser Support
-
-![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) |
---- | --- | --- | --- | --- |
-Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
-
 ## Features
 
 Allows connecting to Hiveage API and get results as JSON Object. The client has the following features:
@@ -40,6 +33,13 @@ Allows connecting to Hiveage API and get results as JSON Object. The client has 
 - Transparent HTTPS connection to Hiveage API.
 - Allows simple HTTP basic authentication.
 - Allows most common HTTP operations: GET, POST, PUT, DELETE, PATCH.
+
+## Browser Support
+
+![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/src/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png) |
+--- | --- | --- | --- | --- |
+Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
+
 
 ## Installation
 
@@ -162,6 +162,13 @@ Notes :
   - should be a JSON object
 - ***params : optional field***
   - should be a JSON object
+    - Example :-
+  ```js
+  params = { "per_page":20, "page":1, "order":"desc" }
+  ```
+  
+## Contributing
+  Fork the repository and create a pull request
 
 ## Built With
 
