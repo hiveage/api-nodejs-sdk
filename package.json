@@ -6,6 +6,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "dotenv": "^8.2.0",
+    "np": "^6.2.3",
     "superagent": "^5.2.2"
   },
   "devDependencies": {
@@ -20,19 +21,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/NisanKathir/hiveage-node-client.git"
+    "url": "https://github.com/hiveage/api-nodejs-sdk.git"
   },
   "keywords": [
     "hiveage",
     "node",
     "client"
   ],
-  "author": "Vesess",
+  "author": "Hiveage",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/NisanKathir/hiveage-node-client/issues"
+    "url": "https://github.com/hiveage/api-nodejs-sdk/issues"
   },
-  "homepage": "https://gitlab.com/NisanKathir/hiveage-node-client#readme",
+  "homepage": "https://github.com/hiveage/api-nodejs-sdk#readme",
   "presets": [
     "@babel/preset-env"
   ]
