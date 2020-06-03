@@ -73,80 +73,80 @@ HiveageAPI.createConnection(data)
 
 Network
 
-- [createConnection(data)](README/NETWORK.MD#create-a-new-connection)
-- [retriveConnection(hash)](README/NETWORK.MD#retrieve-a-connection)
-- [updateConnection(hash, data)](README/NETWORK.MD#update-a-connection)
-- [listAllConnections(params)](README/NETWORK.MD#delete-a-connection)
-- [deleteConnection(hash)](README/NETWORK.MD#list-all-connections)
-- [invoiceActivities(hash, params)](README/NETWORK.MD#invoice-activities) 
-- [estimateActivities(hash, params)](README/NETWORK.MD#estimate-activities) 
-- [recurringInvoice(hash, params)](README/NETWORK.MD#recurring-invoice-activities)
+- [createConnection(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#create-a-new-connection)
+- [retriveConnection(hash)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#retrieve-a-connection)
+- [updateConnection(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#update-a-connection)
+- [listAllConnections(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#delete-a-connection)
+- [deleteConnection(hash)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#list-all-connections)
+- [invoiceActivities(hash, params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#invoice-activities) 
+- [estimateActivities(hash, params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#estimate-activities) 
+- [recurringInvoice(hash, params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/NETWORK.MD#recurring-invoice-activities)
 
 Contacts
 
-- [createContact(hash, data)](README/CONTACT.MD#create-a-new-contact)
-- [retriveContact(hash, id)](README/CONTACT.MD#retrieve-a-contact)
-- [updateContact(hash, id, data)](README/CONTACT.MD#update-a-contact)
-- [listAllContacts(hash, params)](README/CONTACT.MD#list-all-contacts)
-- [deleteContact(hash, id)](README/CONTACT.MD#delete-a-contact)
+- [createContact(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/CONTACT.MD#create-a-new-contact)
+- [retriveContact(hash, id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/CONTACT.MD#retrieve-a-contact)
+- [updateContact(hash, id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/CONTACT.MD#update-a-contact)
+- [listAllContacts(hash, params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/CONTACT.MD#list-all-contacts)
+- [deleteContact(hash, id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/CONTACT.MD#delete-a-contact)
 
 Invoice
 
-- [createInvoice(data)](README/INVOICE.MD#create-a-invoice)
-- [retriveInvoice(hash)](README/INVOICE.MD#retrieve-an-invoice)
-- [updateInvoice(hash, data)](README/INVOICE.MD#update-an-invoice)
-- [listAllInvoices(params)](README/INVOICE.MD#list-all-invoices)
-- [sendInvoice(hash, data)](README/INVOICE.MD#send-invoice) 
-- [sendReminder(hash, data)](README/INVOICE.MD#send-invoice-reminder)
-- [deleteInvoice(hash)](README/INVOICE.MD#delete-an-invoice)
+- [createInvoice(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#create-a-invoice)
+- [retriveInvoice(hash)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#retrieve-an-invoice)
+- [updateInvoice(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#update-an-invoice)
+- [listAllInvoices(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#list-all-invoices)
+- [sendInvoice(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#send-invoice) 
+- [sendReminder(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#send-invoice-reminder)
+- [deleteInvoice(hash)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/INVOICE.MD#delete-an-invoice)
 
 Estimates
 
-- [createEstimate(data)](README/ESTIMATE.MD#create-a-new-estimate)
-- [retriveEstimate(hash)](README/ESTIMATE.MD#retrieve-an-estimate)
-- [updateEstimate(hash, data)](README/ESTIMATE.MD#update-an-estimate)
-- [listAllEstimates(params)](README/ESTIMATE.MD#list-all-estimates)
-- [sendEstimates(hash, data)](README/ESTIMATE.MD#send-estimate)
-- [deleteEstimate(hash)](README/ESTIMATE.MD#delete-an-estimate)
+- [createEstimate(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ESTIMATE.MD#create-a-new-estimate)
+- [retriveEstimate(hash)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ESTIMATE.MD#retrieve-an-estimate)
+- [updateEstimate(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ESTIMATE.MD#update-an-estimate)
+- [listAllEstimates(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ESTIMATE.MD#list-all-estimates)
+- [sendEstimates(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ESTIMATE.MD#send-estimate)
+- [deleteEstimate(hash)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ESTIMATE.MD#delete-an-estimate)
 
 Payment
 
-- [createPayment(hash, data)](README/PAYMENT.MD#create-a-new-payment)
-- [retrivePayment(hash, id)](README/PAYMENT.MD#retrieve-a-payment)
-- [updatePayment(hash, id, data)](README/PAYMENT.MD#update-a-payment)
-- [listAllPayments(hash, params)](README/PAYMENT.MD#list-all-payments)
-- [deletePayment(hash, id)](README/PAYMENT.MD#delete-a-payment)
+- [createPayment(hash, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/PAYMENT.MD#create-a-new-payment)
+- [retrivePayment(hash, id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/PAYMENT.MD#retrieve-a-payment)
+- [updatePayment(hash, id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/PAYMENT.MD#update-a-payment)
+- [listAllPayments(hash, params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/PAYMENT.MD#list-all-payments)
+- [deletePayment(hash, id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/PAYMENT.MD#delete-a-payment)
 
 Expense
 
-- [createExpense(data)](README/EXPENSE.MD#create-a-new-expense)
-- [retriveExpense(params)](README/EXPENSE.MD#retrieve-an-expense)
-- [updateExpense(id,data)](README/EXPENSE.MD#update-an-expense)
-- [listAllExpenses(id)](README/EXPENSE.MD#list-all-expenses)
-- [deleteExpense(id)](README/EXPENSE.MD#delete-an-expense)
+- [createExpense(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#create-a-new-expense)
+- [retriveExpense(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#retrieve-an-expense)
+- [updateExpense(id,data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#update-an-expense)
+- [listAllExpenses(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#list-all-expenses)
+- [deleteExpense(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#delete-an-expense)
 
 Trip
 
-- [createTrip(data)](README/TRIP.MD#create-a-new-trip)
-- [retriveTrip(id)](README/TRIP.MD#retrieve-a-trip)
-- [updateTrip(id, data)](README/TRIP.MD#update-a-trip)
-- [listAllTrips(params)](README/TRIP.MD#list-all-trips)
-- [deleteTrip(id)](README/TRIP.MD#delete-a-trip)
+- [createTrip(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#create-a-new-trip)
+- [retriveTrip(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#retrieve-a-trip)
+- [updateTrip(id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#update-a-trip)
+- [listAllTrips(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#list-all-trips)
+- [deleteTrip(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#delete-a-trip)
 
 Task
 
-- [createTask(data)](README/TASK.MD#create-a-new-task)
-- [retriveTask(id)](README/TASK.MD#retrieve-a-task)
-- [updateTask(id, data)](README/TASK.MD#update-a-task)
-- [listAllTasks(params)](README/TASK.MD#list-all-task)
-- [deleteTask(id)](README/TASK.MD#delete-a-task)
+- [createTask(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#create-a-new-task)
+- [retriveTask(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#retrieve-a-task)
+- [updateTask(id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#update-a-task)
+- [listAllTasks(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#list-all-task)
+- [deleteTask(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#delete-a-task)
 
 Item
-- [createItem(data)](README/ITEM.MD#create-a-new-item)
-- [retriveItem(id)](README/ITEM.MD#retrieve-an-item)
-- [updateItem(id, data)](README/ITEM.MD#update-an-item)
-- [listAllItems(params)](README/ITEM.MD#list-all-items)
-- [deleteItem(id)](README/ITEM.MD#delete-an-item)
+- [createItem(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ITEM.MD#create-a-new-item)
+- [retriveItem(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ITEM.MD#retrieve-an-item)
+- [updateItem(id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ITEM.MD#update-an-item)
+- [listAllItems(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ITEM.MD#list-all-items)
+- [deleteItem(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ITEM.MD#delete-an-item)
 
 Notes : 
 - ***hash : must field***
