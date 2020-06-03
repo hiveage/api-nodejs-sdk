@@ -5,9 +5,7 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "^0.19.2",
-    "dotenv": "^8.2.0",
-    "np": "^6.2.3",
-    "superagent": "^5.2.2"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.9.5",
@@ -16,7 +14,7 @@
     "superagent-mocker": "^0.5.2"
   },
   "scripts": {
-    "test": "jest --verbose",
+    "test": "echo \"No test specified\"",
     "testDebug": "node --inspect-brk node_modules/.bin/jest --runInBand"
   },
   "repository": {
