@@ -125,6 +125,14 @@ Expense
 - [listAllExpenses(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#list-all-expenses)
 - [deleteExpense(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/EXPENSE.MD#delete-an-expense)
 
+EntryExpense
+
+- [createEntryExpense(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ENTRYEXPENSE.MD#create-a-new-expenseentry)
+- [retriveEntryExpense(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ENTRYEXPENSE.MD#retrieve-an-expenseentry)
+- [updateEntryExpense(id,data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ENTRYEXPENSE.MD#update-an-expenseentry)
+- [listAllEntryExpense(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ENTRYEXPENSE.MD#list-all-expensesentries)
+- [deleteEntryExpense(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/ENTRYEXPENSE.MD#delete-an-expenseentry)
+
 Trip
 
 - [createTrip(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#create-a-new-trip)
@@ -132,6 +140,14 @@ Trip
 - [updateTrip(id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#update-a-trip)
 - [listAllTrips(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#list-all-trips)
 - [deleteTrip(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TRIP.MD#delete-a-trip)
+
+EntryMileage
+
+- [createEntryMileage(data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#create-a-new-mileageentry)
+- [retriveEntryMileage(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#retrieve-a-mileageentry)
+- [updateEntryMileage(id, data)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#update-a-mileageentry)
+- [listAllEntryMileage(params)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#list-all-mileageentries)
+- [deleteEntryMileage(id)](https://github.com/hiveage/api-nodejs-sdk/blob/master/README/TASK.MD#delete-a-mileageentry)
 
 Task
 
