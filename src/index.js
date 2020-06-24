@@ -5,7 +5,9 @@ const Invoices = require("./invoices");
 const Estimates = require("./estimates");
 const Payments = require("./payments");
 const Expense = require("./expense");
+const EntryExpense = require("./entryexpense");
 const Trips = require("./trips");
+const EntryMileage = require("./entrymileage");
 const Task = require("./task");
 const Item = require("./items");
 const RecurringInvoice = require("./recurringInvoices");
@@ -77,12 +79,26 @@ Hiveage.prototype.updateExpense = Expense.updateExpense;
 Hiveage.prototype.listAllExpenses = Expense.listAllExpenses;
 Hiveage.prototype.deleteExpense = Expense.deleteExpense;
 
+// Assigning Expense object methods to Hiveage class
+Hiveage.prototype.createEntryExpense = EntryExpense.createEntryExpense;
+Hiveage.prototype.retriveEntryExpense = EntryExpense.retriveEntryExpense;
+Hiveage.prototype.updateEntryExpense = EntryExpense.updateEntryExpense;
+Hiveage.prototype.listAllEntryExpense = EntryExpense.listAllEntryExpense;
+Hiveage.prototype.deleteEntryExpense = EntryExpense.deleteEntryExpense;
+
 // Assigning Trip object methods to Hiveage class
 Hiveage.prototype.createTrip = Trips.createTrip;
 Hiveage.prototype.retriveTrip = Trips.retriveTrip;
 Hiveage.prototype.updateTrip = Trips.updateTrip;
 Hiveage.prototype.listAllTrips = Trips.listAllTrips;
 Hiveage.prototype.deleteTrip = Trips.deleteTrip;
+
+// Assigning Mileage object methods to Hiveage class
+Hiveage.prototype.createEntryMileage = EntryMileage.createEntryMileage;
+Hiveage.prototype.retriveEntryMileage = EntryMileage.retriveEntryMileage;
+Hiveage.prototype.updateEntryMileage = EntryMileage.updateEntryMileage;
+Hiveage.prototype.listAllEntryMileage = EntryMileage.listAllEntryMileage;
+Hiveage.prototype.deleteEntryMileage = EntryMileage.deleteEntryMileage;
 
 // Assigning Task object methods to Hiveage class
 Hiveage.prototype.createTask = Task.createTask;
