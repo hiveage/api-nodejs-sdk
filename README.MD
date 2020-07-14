@@ -1,6 +1,6 @@
-# Hiveage Node Client
+# Hiveage Node.js Client
 
-Node.js client library for using Hiveage APIs. Support for authorization and authentication with basic authentication.
+Node.js client library for using Hiveage APIs. Supports authorization and authentication to the Hiveage API using basic authentication.
 
 [![NPM version][shield-npm]](#)
 [![Node.js version support][shield-node]](#)
@@ -28,9 +28,9 @@ Paddington requires the following to run:
 
 ## Features
 
-Allows connecting to Hiveage API and get results as JSON Object. The client has the following features:
+Allows connecting to the Hiveage API and geting results as JSON Objects. The client has the following features:
 
-- Transparent HTTPS connection to Hiveage API.
+- Transparent HTTPS connection to the Hiveage API.
 - Allows simple HTTP basic authentication.
 - Allows most common HTTP operations: GET, POST, PUT, DELETE, PATCH.
 
@@ -42,7 +42,7 @@ $ npm install hiveage
 
 ## Usage
 
-First we need to create HiveageAPI Object
+First we need to create a HiveageAPI Object
 
 ```js
 //importing Hiveage Package
@@ -53,7 +53,7 @@ const HiveageAPI = new Hiveage("<< DOMAIN >>", "<< API KEY >>");
 // Example : new Hiveage('john','xyzabcsded')
 ```
 
-Then, We need can access the available methods of HiveageAPI object
+Thereafter, we can access the available methods of the HiveageAPI object
 
 ```js
 // Creating new connection
@@ -177,7 +177,7 @@ Notes :
   ```
   
 ## Contributing
-  Fork the repository and create a pull request
+Please fork the repository and create a pull request
 
 ## Built With
 
@@ -186,7 +186,7 @@ Notes :
 ## License
 
 Hiveage node api client is licensed under the [MIT](#) license.  
-Copyright &copy; 2020, Hiveage
+Copyright &copy; 2020, Hiveage Inc.
 
 [node]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
