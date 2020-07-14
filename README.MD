@@ -21,7 +21,7 @@ Node.js client library for using Hiveage APIs. Supports authorization and authen
 
 ## Requirements
 
-Paddington requires the following to run:
+Hiveage Node.js SDK requires the following to run:
 
 - [Node.js][node] 0.10+
 - [npm][npm] (normally comes with Node.js)
