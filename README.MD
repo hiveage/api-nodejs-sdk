@@ -30,9 +30,9 @@ Paddington requires the following to run:
 
 Allows connecting to the Hiveage API and geting results as JSON Objects. The client has the following features:
 
-- Transparent HTTPS connection to the Hiveage API.
-- Allows simple HTTP basic authentication.
-- Allows most common HTTP operations: GET, POST, PUT, DELETE, PATCH.
+- Transparent HTTPS connection to the Hiveage API
+- Allows simple HTTP basic authentication
+- Allows most common HTTP operations: GET, POST, PUT, DELETE, PATCH
 
 ## Installation
 
@@ -42,7 +42,7 @@ $ npm install hiveage
 
 ## Usage
 
-First we need to create a HiveageAPI Object
+First we need to create a HiveageAPI Object:
 
 ```js
 //importing Hiveage Package
@@ -53,7 +53,7 @@ const HiveageAPI = new Hiveage("<< DOMAIN >>", "<< API KEY >>");
 // Example : new Hiveage('john','xyzabcsded')
 ```
 
-Thereafter, we can access the available methods of the HiveageAPI object
+Thereafter, we can access the available methods of the HiveageAPI object:
 
 ```js
 // Creating new connection
@@ -177,11 +177,11 @@ Notes :
   ```
   
 ## Contributing
-Please fork the repository and create a pull request
+Please fork the repository and create a pull request.
 
 ## Built With
 
-- [Axios](https://github.com/axios/axios) - client-side HTTP request library
+- [Axios](https://github.com/axios/axios) - client-side HTTP request library.
 
 ## License
 
